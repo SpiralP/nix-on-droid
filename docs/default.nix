@@ -22,7 +22,7 @@ let
   modulesDocs = nmd.buildModulesDocs {
     modules = modules ++ [ setupModule ];
     moduleRootPaths = [ ../. ];
-    mkModuleUrl = path: "https://github.com/t184256/nix-on-droid/blob/master/${path}";
+    mkModuleUrl = path: "https://github.com/SpiralP/nix-on-droid/blob/master/${path}";
     channelName = "nix-on-droid";
     docBook.id = "nix-on-droid-options";
   };

@@ -10,7 +10,7 @@
     };
 
     nix-on-droid = {
-      url = "github:t184256/nix-on-droid/release-22.11";
+      url = "github:SpiralP/nix-on-droid/master";
       inputs.nixpkgs.follows = "nixpkgs";
       inputs.home-manager.follows = "home-manager";
     };

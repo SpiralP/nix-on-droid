@@ -5,7 +5,7 @@
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-22.11";
 
     nix-on-droid = {
-      url = "github:t184256/nix-on-droid/release-22.11";
+      url = "github:SpiralP/nix-on-droid/master";
       inputs.nixpkgs.follows = "nixpkgs";
     };
   };

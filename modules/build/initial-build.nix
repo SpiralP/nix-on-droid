@@ -6,13 +6,13 @@ with lib;
 
 let
   defaultNixpkgsBranch = "nixos-22.11";
-  defaultNixOnDroidBranch = "release-22.11";
+  defaultNixOnDroidBranch = "master";
 
   defaultNixpkgsChannel = "https://nixos.org/channels/${defaultNixpkgsBranch}";
-  defaultNixOnDroidChannel = "https://github.com/t184256/nix-on-droid/archive/${defaultNixOnDroidBranch}.tar.gz";
+  defaultNixOnDroidChannel = "https://github.com/SpiralP/nix-on-droid/archive/${defaultNixOnDroidBranch}.tar.gz";
 
   defaultNixpkgsFlake = "github:NixOS/nixpkgs/${defaultNixpkgsBranch}";
-  defaultNixOnDroidFlake = "github:t184256/nix-on-droid/${defaultNixOnDroidBranch}";
+  defaultNixOnDroidFlake = "github:SpiralP/nix-on-droid/${defaultNixOnDroidBranch}";
 in
 
 {
